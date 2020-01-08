@@ -10,7 +10,21 @@ import SwiftUI
 
 struct AccountHomeView: View {
     var body: some View {
-        Text("Account Home")
+        ZStack {
+            Color(.baseLightWhite)
+                .edgesIgnoringSafeArea(.all)
+
+            ScrollView {
+                VStack(spacing: 0) {
+                    AppHeaderView()
+                        .padding(.horizontal)
+                    CreditCardListView()
+                    AccountSummaryView()
+                    QuickServicesView()
+                    Spacer()
+                }
+            }
+        }
     }
 }
 

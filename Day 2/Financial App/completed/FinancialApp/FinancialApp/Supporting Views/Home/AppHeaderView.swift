@@ -11,12 +11,11 @@ import SwiftUI
 struct AppHeaderView: View {
     var body: some View {
         HStack {
-            VStack(alignment: .leading) {
-                Text("App Header View")
+            VStack(alignment: .leading, spacing: -6) {
+                Text("Hi, Craig Clayton")
                     .customFont(.custom(.bold, 24))
                     .foregroundColor(.basePrussianBlue)
-
-                Text("App Header View")
+                Text("Welcome to your favorite app.")
                     .customFont(.custom(.demibold, 16))
                     .foregroundColor(.baseblackAlpha30)
             }

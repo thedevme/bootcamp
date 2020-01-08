@@ -13,6 +13,7 @@
 		4635815E23B9858300098FE5 /* AccountSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635815D23B9858300098FE5 /* AccountSummaryView.swift */; };
 		4635816023B99D9C00098FE5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635815F23B99D9C00098FE5 /* ProfileView.swift */; };
 		463CE5B523C4E12D004960A4 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CE5B423C4E12D004960A4 /* Transaction.swift */; };
+		463CE60523C66457004960A4 /* AccountInfoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CE60423C66456004960A4 /* AccountInfoItem.swift */; };
 		4653DCCC23BBB976009E27E5 /* SpendingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4653DCCB23BBB976009E27E5 /* SpendingList.swift */; };
 		4653DCCE23BBBA3B009E27E5 /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4653DCCD23BBBA3B009E27E5 /* TransactionList.swift */; };
 		46805D8B23B1AC370013EBC8 /* RoundedBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46805D8A23B1AC370013EBC8 /* RoundedBackgroundView.swift */; };
@@ -71,6 +72,7 @@
 		4635815D23B9858300098FE5 /* AccountSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryView.swift; sourceTree = "<group>"; };
 		4635815F23B99D9C00098FE5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		463CE5B423C4E12D004960A4 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		463CE60423C66456004960A4 /* AccountInfoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoItem.swift; sourceTree = "<group>"; };
 		4653DCCB23BBB976009E27E5 /* SpendingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingList.swift; sourceTree = "<group>"; };
 		4653DCCD23BBBA3B009E27E5 /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
 		46805D8A23B1AC370013EBC8 /* RoundedBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBackgroundView.swift; sourceTree = "<group>"; };
@@ -263,6 +265,7 @@
 				46B77C0023C171BC00425E26 /* CustomCreditCardView.swift */,
 				46B77C0423C18CE300425E26 /* CardSettingsView.swift */,
 				46B77C0623C191D900425E26 /* SettingItem.swift */,
+				463CE60423C66456004960A4 /* AccountInfoItem.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				46B77BFF23C1680900425E26 /* ColorView.swift in Sources */,
 				46E0593923B1853900D90DCF /* TransactionView.swift in Sources */,
 				46B77C0123C171BC00425E26 /* CustomCreditCardView.swift in Sources */,
+				463CE60523C66457004960A4 /* AccountInfoItem.swift in Sources */,
 				46E0592223B15B6800D90DCF /* CustomFont.swift in Sources */,
 				4635813223B8283900098FE5 /* Int+Extension.swift in Sources */,
 				46805D9523B55A200013EBC8 /* CreditCardView.swift in Sources */,

@@ -10,7 +10,31 @@ import SwiftUI
 
 struct QuickServicesView: View {
     var body: some View {
-        Text("Quick Services View")
+        VStack(spacing: 0) {
+            HStack {
+                Text("QUICK SERVICES")
+                    .customFont(.custom(.bold, 20))
+                    .foregroundColor(.basePrussianBlue)
+                Spacer()
+
+            }
+
+            Divider().padding(.bottom, 10)
+
+            HStack {
+                ForEach(0..<4) { index in
+                    VStack {
+                        Image("icon-bills")
+                        Text("TRANSACTIONS").customFont(.custom(.demibold, 12))
+                    }
+                    .frame(width: 75, height: 80)
+                    .background(Color.white)
+                    .cornerRadius(10)
+
+                    if index != 3 { Spacer() }
+                }
+            }
+        }.padding(.horizontal, 10)
     }
 }
 
