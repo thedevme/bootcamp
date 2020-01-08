@@ -11,7 +11,7 @@ import UIKit
 struct PopularSection: Section {
     let numberOfItems = 9
 
-func layoutSection() -> NSCollectionLayoutSection {
+    func layoutSection() -> NSCollectionLayoutSection {
     // 1
     let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .fractionalHeight(1))
 

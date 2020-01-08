@@ -10,10 +10,37 @@ import UIKit
 
 class ListViewController: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+
+    var states:[String] = []
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setupData()
     }
 
+    func setupData() {
+        self.states = ListDataManager.states
+        dump(self.states)
+    }
 }
+
+
+extension ListViewController: UITableViewDataSource {
+
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        self.states.count
+    }
+
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let item = self.states[indexPath.item]
+        cell.textLabel?.text = item
+
+        return cell
+    }
+}
+
+
+

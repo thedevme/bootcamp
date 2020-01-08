@@ -21,6 +21,7 @@
 		460CA89F23A1B2B700AA074F /* TitleSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460CA89E23A1B2B700AA074F /* TitleSection.swift */; };
 		460CA8A223A1B2ED00AA074F /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460CA8A023A1B2ED00AA074F /* TitleCell.swift */; };
 		460CA8A323A1B2ED00AA074F /* TitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 460CA8A123A1B2ED00AA074F /* TitleCell.xib */; };
+		463CE5B723C4EF75004960A4 /* ListDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CE5B623C4EF75004960A4 /* ListDataManager.swift */; };
 		4652A52923A1B9EB000A64E1 /* DiscoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4652A52723A1B9EB000A64E1 /* DiscoverCell.swift */; };
 		4652A52A23A1B9EB000A64E1 /* DiscoverCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4652A52823A1B9EB000A64E1 /* DiscoverCell.xib */; };
 		4652A52C23A1BA25000A64E1 /* DiscoverSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4652A52B23A1BA25000A64E1 /* DiscoverSection.swift */; };
@@ -48,6 +49,7 @@
 		460CA89E23A1B2B700AA074F /* TitleSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSection.swift; sourceTree = "<group>"; };
 		460CA8A023A1B2ED00AA074F /* TitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
 		460CA8A123A1B2ED00AA074F /* TitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleCell.xib; sourceTree = "<group>"; };
+		463CE5B623C4EF75004960A4 /* ListDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListDataManager.swift; sourceTree = "<group>"; };
 		4652A52723A1B9EB000A64E1 /* DiscoverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCell.swift; sourceTree = "<group>"; };
 		4652A52823A1B9EB000A64E1 /* DiscoverCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscoverCell.xib; sourceTree = "<group>"; };
 		4652A52B23A1BA25000A64E1 /* DiscoverSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverSection.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		460CA87923A1B0A700AA074F /* DashboardApp */ = {
 			isa = PBXGroup;
 			children = (
+				463CE5B823C4EF90004960A4 /* Model */,
 				460CA89D23A1B29600AA074F /* Sections */,
 				460CA89123A1B0BF00AA074F /* Controllers */,
 				460CA88E23A1B0BF00AA074F /* Views */,
@@ -145,6 +148,14 @@
 				4652A53D23A20AA9000A64E1 /* LinkSection.swift */,
 			);
 			path = Sections;
+			sourceTree = "<group>";
+		};
+		463CE5B823C4EF90004960A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				463CE5B623C4EF75004960A4 /* ListDataManager.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				460CA89423A1B0BF00AA074F /* RegisterableView.swift in Sources */,
+				463CE5B723C4EF75004960A4 /* ListDataManager.swift in Sources */,
 				460CA89723A1B1EB00AA074F /* PopularSection.swift in Sources */,
 				4652A52C23A1BA25000A64E1 /* DiscoverSection.swift in Sources */,
 				460CA89323A1B0BF00AA074F /* Section.swift in Sources */,
@@ -380,15 +392,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BCKVL9BZPW;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DashboardApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = academy.cocoa.DashboardApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -398,15 +412,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BCKVL9BZPW;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DashboardApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = academy.cocoa.DashboardApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
