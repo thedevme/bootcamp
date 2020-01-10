@@ -10,7 +10,7 @@ import SwiftUI
 
 struct CreditCardView: View {
 
-    var color: Color
+    @Binding var color: Color
 
     var body: some View {
         ZStack {
@@ -79,7 +79,7 @@ struct CreditCardView: View {
 
 struct CreditCardView_Previews: PreviewProvider {
     static var previews: some View {
-        CreditCardView(color: .basePrussianBlue)
+        CreditCardView(color: .constant(.basePrussianBlue))
             .previewLayout(.fixed(width: 300, height: 180))
     }
 }

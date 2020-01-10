@@ -25,15 +25,15 @@ struct CreditCardListView: View {
 
     var body: some View {
         VStack {
-            PageViewer(pageCount: colors.count, currentIndex: self.$currentPage) {
-                ForEach(colors, id: \.self) { color in
-                    CreditCardView(color: color).onTapGesture {
-                        self.isShowingDetail.toggle()
-                    }.sheet(isPresented: self.$isShowingDetail) {
-                        CardDetailView()
-                    }
-                }
-            }.frame(height: 220)
+//            PageViewer(pageCount: colors.count, currentIndex: self.$currentPage) {
+//                ForEach(colors, id: \.self) { color in
+//                    CreditCardView(color: color).onTapGesture {
+//                        self.isShowingDetail.toggle()
+//                    }.sheet(isPresented: self.$isShowingDetail) {
+//                        CardDetailView()
+//                    }
+//                }
+//            }.frame(height: 220)
 
             HStack {
                 ForEach(0..<colors.count) { index in

@@ -36,6 +36,12 @@
 		46B77C0323C18B5F00425E26 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B77C0223C18B5F00425E26 /* SettingsView.swift */; };
 		46B77C0523C18CE300425E26 /* CardSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B77C0423C18CE300425E26 /* CardSettingsView.swift */; };
 		46B77C0723C191D900425E26 /* SettingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B77C0623C191D900425E26 /* SettingItem.swift */; };
+		46DC441223C7D7E600F06C27 /* CreditCardTypeMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DC441123C7D7E600F06C27 /* CreditCardTypeMenuView.swift */; };
+		46DC441623C7D9EF00F06C27 /* CreditCardButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DC441523C7D9EF00F06C27 /* CreditCardButtonStyle.swift */; };
+		46DC441823C7DD2D00F06C27 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DC441723C7DD2D00F06C27 /* ColorPickerView.swift */; };
+		46DC441A23C7E8D900F06C27 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DC441923C7E8D900F06C27 /* RingView.swift */; };
+		46DC441C23C7EDD500F06C27 /* WedgeShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DC441B23C7EDD500F06C27 /* WedgeShape.swift */; };
+		46DC441E23C7F04E00F06C27 /* WedgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DC441D23C7F04E00F06C27 /* WedgeView.swift */; };
 		46E058F823B15B2D00D90DCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E058F723B15B2D00D90DCF /* AppDelegate.swift */; };
 		46E058FA23B15B2D00D90DCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E058F923B15B2D00D90DCF /* SceneDelegate.swift */; };
 		46E058FC23B15B2D00D90DCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E058FB23B15B2D00D90DCF /* ContentView.swift */; };
@@ -95,6 +101,12 @@
 		46B77C0223C18B5F00425E26 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		46B77C0423C18CE300425E26 /* CardSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSettingsView.swift; sourceTree = "<group>"; };
 		46B77C0623C191D900425E26 /* SettingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingItem.swift; sourceTree = "<group>"; };
+		46DC441123C7D7E600F06C27 /* CreditCardTypeMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardTypeMenuView.swift; sourceTree = "<group>"; };
+		46DC441523C7D9EF00F06C27 /* CreditCardButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardButtonStyle.swift; sourceTree = "<group>"; };
+		46DC441723C7DD2D00F06C27 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		46DC441923C7E8D900F06C27 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		46DC441B23C7EDD500F06C27 /* WedgeShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WedgeShape.swift; sourceTree = "<group>"; };
+		46DC441D23C7F04E00F06C27 /* WedgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WedgeView.swift; sourceTree = "<group>"; };
 		46E058F423B15B2D00D90DCF /* FinancialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinancialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E058F723B15B2D00D90DCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46E058F923B15B2D00D90DCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -266,6 +278,12 @@
 				46B77C0423C18CE300425E26 /* CardSettingsView.swift */,
 				46B77C0623C191D900425E26 /* SettingItem.swift */,
 				463CE60423C66456004960A4 /* AccountInfoItem.swift */,
+				46DC441123C7D7E600F06C27 /* CreditCardTypeMenuView.swift */,
+				46DC441523C7D9EF00F06C27 /* CreditCardButtonStyle.swift */,
+				46DC441723C7DD2D00F06C27 /* ColorPickerView.swift */,
+				46DC441923C7E8D900F06C27 /* RingView.swift */,
+				46DC441B23C7EDD500F06C27 /* WedgeShape.swift */,
+				46DC441D23C7F04E00F06C27 /* WedgeView.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -375,10 +393,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				46805D9923B5624B0013EBC8 /* CreditCardListView.swift in Sources */,
+				46DC441623C7D9EF00F06C27 /* CreditCardButtonStyle.swift in Sources */,
 				4635816023B99D9C00098FE5 /* ProfileView.swift in Sources */,
 				46E0595D23B18F2E00D90DCF /* RoundButton.swift in Sources */,
 				46E0595F23B1927200D90DCF /* SubmenuView.swift in Sources */,
 				46805DC723B81F100013EBC8 /* RegistrationView.swift in Sources */,
+				46DC441A23C7E8D900F06C27 /* RingView.swift in Sources */,
 				46B77C0723C191D900425E26 /* SettingItem.swift in Sources */,
 				46B77BFF23C1680900425E26 /* ColorView.swift in Sources */,
 				46E0593923B1853900D90DCF /* TransactionView.swift in Sources */,
@@ -387,10 +407,12 @@
 				46E0592223B15B6800D90DCF /* CustomFont.swift in Sources */,
 				4635813223B8283900098FE5 /* Int+Extension.swift in Sources */,
 				46805D9523B55A200013EBC8 /* CreditCardView.swift in Sources */,
+				46DC441823C7DD2D00F06C27 /* ColorPickerView.swift in Sources */,
 				4653DCCE23BBBA3B009E27E5 /* TransactionList.swift in Sources */,
 				46E0593523B1839500D90DCF /* RoundedView.swift in Sources */,
 				463CE5B523C4E12D004960A4 /* Transaction.swift in Sources */,
 				46805DC123B6EAA80013EBC8 /* SpendingDetailItem.swift in Sources */,
+				46DC441C23C7EDD500F06C27 /* WedgeShape.swift in Sources */,
 				46805D9723B55A720013EBC8 /* QuickServicesView.swift in Sources */,
 				46E058F823B15B2D00D90DCF /* AppDelegate.swift in Sources */,
 				46805D8D23B1ACCB0013EBC8 /* TransactionListItemView.swift in Sources */,
@@ -406,6 +428,7 @@
 				46E0592D23B16AF600D90DCF /* AppHeaderView.swift in Sources */,
 				46E058FC23B15B2D00D90DCF /* ContentView.swift in Sources */,
 				46B77C0323C18B5F00425E26 /* SettingsView.swift in Sources */,
+				46DC441E23C7F04E00F06C27 /* WedgeView.swift in Sources */,
 				46805DC523B7E6530013EBC8 /* CreateAccountView.swift in Sources */,
 				46805D9123B28CE90013EBC8 /* AccountHomeView.swift in Sources */,
 				46E0591A23B15B6800D90DCF /* ScaledFont.swift in Sources */,
@@ -420,6 +443,7 @@
 				46805DBB23B5C6B70013EBC8 /* CardDetailView.swift in Sources */,
 				4635815C23B97B9000098FE5 /* DotView.swift in Sources */,
 				46E0591B23B15B6800D90DCF /* CustomTextStyle.swift in Sources */,
+				46DC441223C7D7E600F06C27 /* CreditCardTypeMenuView.swift in Sources */,
 				46E0592323B15B6800D90DCF /* Palette+Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
